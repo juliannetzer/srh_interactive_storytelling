@@ -4,7 +4,7 @@ Go to [Download Unity Hub](https://unity.com/de/download) and download the Unity
 
 
 ## Install Unity Editor 
-After installing the Unity Hub, start it and head over to "Installs" and click on "Install Editor" and choose version 6000.3.4f1
+After installing the Unity Hub, start it and head over to "Installs" and click on "Install Editor" and choose version 6000.3.13f1
 If you have an Apple Silicon Chip (M1, M2, etc. ) choose the "Silicon" Version, if not the "Intel" version. 
 
 ![](images/UnityInstall1.jpeg)
