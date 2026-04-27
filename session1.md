@@ -1,5 +1,6 @@
 # Session 1
 
+Before we start: [Download the Example Assets](http://juliannetzer.de/downloads/AssetsSRH1.zip)
 
 # <a name="editor">Working with the Unity Editor
 
