@@ -24,7 +24,7 @@ Unity can…
 - Handle behavior and logic
 - User input (keyboard, mouse, controller, touch)
 - States, triggers, events
-- Physics (gravity, collisions)
+- Limited Physics (gravity, collisions)
 - Simple AI and agent behavior
 - Stage and compose spaces
 - Scenes, cameras, light
@@ -41,10 +41,10 @@ Unity cannot…
 - Replace creation tools
 	- No proper 3D modeling (→ Blender)
 	- No image editing (→ Photoshop)
-	- No sound editing (→ Audition, Reaper)
-	- No layout or typography tools (→ InDesign, Figma)
+	- No sound editing (→ Audition, Audacity)
 
 - Replace offline rendering -> No high-end cinematic rendering like Blender Cycles
+- no complex physic simulations
 - Limited control over frame-by-frame image perfection
 - Work well for print
 - Automatically support collaboration -> Collaboration must be planned and structured
