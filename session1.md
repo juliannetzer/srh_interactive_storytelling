@@ -184,7 +184,7 @@ Conversion Table for using Polyhaven Materials:
 | Unity            | Polyhaven   |
 | ---------------- | ----------- |
 | Albedo/ Base Map | Diffuse     |
-| Specular Map     | Spec        |
+| Metallic /Specular Map     | Spec        |
 | Normal Map       | Normal (GL) |
 | Height Map       | Displacement|
 | Occlusion Map    | AO          |
