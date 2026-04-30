@@ -6,3 +6,6 @@
 ## Session 1 
 - [What is Unity](whatisunity.md)
 - [Session 1](session1.md)
+
+## Session 2
+- [Session 2](session2.md)
