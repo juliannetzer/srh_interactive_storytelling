@@ -45,6 +45,7 @@ The Animation Window offers two views for editing keyframes: Dopesheet and Curve
 
 ![](images/AnimationDope.jpeg)
 The Dopesheet gives you a compact overview of all keyframes as diamond-shaped markers on a timeline. It's ideal for quickly repositioning or copying keyframes and getting a clear picture of your animation's timing.
+
 ---
 ![](images/AnimationCurve.jpeg)
 The Curves view shows the same data as editable bezier curves, one per animated property. This is where fine-tuning becomes possible: a jump, for example, feels much more natural when the vertical position curve rises quickly, eases at the peak, and accelerates back down – rather than moving at a constant speed throughout. You can drag the curve handles to control easing in and out of any keyframe.
