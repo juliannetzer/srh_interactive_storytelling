@@ -52,9 +52,19 @@ The Curves view shows the same data as editable bezier curves, one per animated 
 
 > You can find a good Tutorial for refining your Animations here: [Refine your Animations](https://learn.unity.com/tutorial/refine-your-animation)
 
-> You can also have a look at "The Illusion ff Life" for Animations from Disney: [The Illusion of Life](https://www.youtube.com/watch?v=yiGY0qiy8fY)
+> You can also have a look at "The Illusion of Life" for Animations from Disney: [The Illusion of Life](https://www.youtube.com/watch?v=yiGY0qiy8fY)
 
 > Website for easing: [Easings](https://easings.net/)
+
+# Parenting & Animating
+
+An important aspect of animating in Unity is the relationship between parent and child objects. When you animate a parent object, all children move along with it automatically – this is useful for example to move an entire door (frame + door panel) while only the door panel itself rotates.
+
+Keep in mind: the Animation Window always records the local transforms of an object, meaning relative to its parent. If you animate a child object whose parent is also animated, both animations will layer on top of each other.
+
+> *Local Transform* – position, rotation and scale relative to the parent object. If the parent moves, the child moves with it, but its local values stay the same. *Global Transform* – the actual position, rotation and scale in the world, regardless of any parent. In the Inspector you always see the local values.
+
+> Tip: If you want to animate an object that also needs to move through the scene, it's good practice to nest it under an empty parent GameObject: the parent handles the global movement (e.g. via script), while the child handles the actual animation (e.g. a bobbing motion).
 
 
 
