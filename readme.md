@@ -12,3 +12,6 @@
 
 ## Session 3
 - [Session 3](session3.md)
+
+## Session 4
+- [Session 4](session4.md)
