@@ -10,11 +10,9 @@ To install the asset, sign in with your Unity Account and click on "Add to my As
 
 Afterwards click on "Open in Unity", in Unity click on Download and then Import. 
 ![](images/Asset1.jpeg)
-Unity will now ask you whether you want to install the dependencies, click on "Install/Upgrade" and after that click on "Yes" when it asks you about the new Input System this will restart your Unity Editor. 
+Unity will now ask you whether you want to install the dependencies, click on "Install/Upgrade".
 ![](images/Asset2.jpeg)
 
-Now we have to import the package, open the Package Manager (Window -> Package Manager), select "My Assets" and search for "Starter Assets: Character Controllers".
-![](images/import1.gif)
 
 Now you should see a folder "Starter Assets" in your project window. In this folder go to Runtime -> ThirdPersonController -> Prefabs and drag and drop the "NestedParentArmature_Unpack.prefab" in your scene and adjust the position. 
 ![](images/import2.gif)
