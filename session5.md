@@ -12,15 +12,14 @@
 - Once installed, go to: Window → General → Recorder → Recorder Window
 - The Recorder Window will open, where you can set up your recording.
 
-- In the Recorder Window, click the “+ Add New Recorder” button. Choose the recording type: Movie: For standard video files (like MP4).
+- In the Recorder Window, click the “+ Add New Recorder” button. Choose the recording type: Movie.
 
-- Configure the Recording Settings like this: 
+- I would recommend these settings: 
 ![](images/record2.jpeg)
 
-- If the resolution 4K is too much, so can set it to FHD - 1080p.
 - Make sure that the movie file gets saved outside your Unity folder! 
 
-- When you now click the Play Button Unity will record your scene. 
+- When you now click the Play Button in the Recorder Window Unity will record your scene. 
 
 >You can also change the Recording Mode: 
 >   - Manual: Start and stop recording manually.
