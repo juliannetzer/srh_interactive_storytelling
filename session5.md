@@ -5,7 +5,7 @@
 - In the Package Manager: Click the dropdown at the top left and select "Unity Registry". 
 - Search for "Recorder".
 - Select Unity Recorder from the list and click "Install".
-![](images/record1.jpeg)
+![](images/record_1.jpg)
 
 
 ## Record 
