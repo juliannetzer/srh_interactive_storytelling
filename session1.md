@@ -254,6 +254,8 @@ A Directional Light emits light evenly across the entire scene, simulating sunli
 You can also change parameters like intensity, color etc. when you select the light in your scene or in your hierarchy: 
 ![](images/lights2.jpeg)
 
+> You can find additional Tutorials here: [How to: Excellently Light a Scene with Unity's Universal Render Pipeline](https://www.youtube.com/watch?v=mjputyz5Mok) and [Light Baking in Unity](https://www.youtube.com/watch?v=XjRNWH8Eazo) and [Lighting an Outdoor Scene in Unity](https://www.youtube.com/watch?v=5dRVRyyGR4A) or the [Official Unity Tutorial](https://learn.unity.com/course/creative-core-lighting). 
+
 
 
 ## <a name="workingtogether">Working together with Unity 
