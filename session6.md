@@ -186,7 +186,7 @@ First install Touchdesigner from here: https://derivative.ca/download
 
 An register yourself with a non-commercial account. 
 
-Then download the Touchdesigner-File: https://juliannetzer.de/Downloads/MoveLoudTD.zip 
+Then download the Touchdesigner-File: [Touchdesigner-File](https://juliannetzer.de/downloads/MoveLoudTD.zip)
 
 Unzip the file and open the MoveLoudTouchDesigner.toe-file.
 
@@ -206,7 +206,7 @@ This plugin handles incoming OSC messages and makes them accessible in your scri
 
 ### Moving a Cube with Sound
 
-Download the following package: [Download Scripts](https://juliannetzer.de/Downloads/ScriptsVolumeUnity.zip)
+Download the following package: [Download Scripts](https://juliannetzer.de/downloads/ScriptsVolumeUnity.zip)
 
 Place the scripts into your Unity project — create a Scripts folder if you don't have one yet.
 
