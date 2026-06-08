@@ -25,5 +25,5 @@ Unity Recorder install, recording a scene as video, recording modes
 - [Session 5](session5.md)
 
 ## Session 6
-Spatial Audio
+Coding in Unity & first Interactions
 - [Session 6](session6.md)
