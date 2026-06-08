@@ -122,16 +122,19 @@ When we created the GameObject we can either drag and drop our script on the Gam
 Then we can start the Play Mode and when you move your Cube around it should change its color.
 
 
+
 # <a name="llm"></a>Working with ChatGPT & Claude
 
-In the next step we want to change our existing script with the LLMs (Large Language Models) ChatGPT (https://chatgpt.com) or Claude (https://claude.ai). 
+You don't need to write code from scratch. In this course, we use LLMs (Large Language Models) like ChatGPT or Claude as coding assistants — you describe what you want in plain language, and the LLM generates or modifies the code for you. Your job is to understand roughly what the code does, test it in Unity, and iterate if something doesn't work.
+
+So in the next step we want to change our existing script with the LLMs (Large Language Models) ChatGPT (https://chatgpt.com) or Claude (https://claude.ai). 
 So please first sign up for one of the tools.  
 
 The first exercise is to change the script so we can edit values directly in the Unity Editor — without touching the code.
 
 To make a variable visible and editable in the Inspector, declare it as public:
 ```
-float speed = 5f;
+public float speed = 5f;
 ```
 
 Public variables appear automatically in the Inspector, so you can tweak them per object without editing the script.
