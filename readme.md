@@ -27,3 +27,7 @@ Unity Recorder install, recording a scene as video, recording modes
 ## Session 6
 Coding in Unity & first Interactions
 - [Session 6](session6.md)
+
+## Session 7
+Pose Tracking
+- [Session 7](session7.md)
