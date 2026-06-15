@@ -132,8 +132,12 @@ pointLight.color = yourColor;
 # Installing the Sphere Game Example
 ![](images/SphereGame.jpeg)
 
+
+
 ## Setup 
 
+| GameObject | Description |
+|---|---|
 | Camera | The player's point of view into the 3D world |
 | Canvas | The 2D overlay surface holding the hand circles |
 | BlueCircle / RedCircle | Image elements on the Canvas that follow the player's hands |
