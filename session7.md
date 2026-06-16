@@ -153,21 +153,24 @@ pointLight.color = yourColor;
 ## The Flow 
 
 You move your hand in front of the camera
-        ↓
+
+↓
+
 TouchDesigner tracks your body with MediaPipe
-        ↓
+
+↓
 Sends the positions as OSC data over the network
-        ↓
+↓
 PoseVisualizer receives and stores all joint positions
-        ↓
+↓
 HandCircleController reads the wrist positions
 and moves the UI circles on screen
-        ↓
+↓
 SphereTarget checks every frame:
 "Is my circle overlapping the sphere on screen?"
-        ↓
+↓
 Hold for 2 seconds → sphere turns white → disappears
-        ↓
+↓
 GameManager spawns a new sphere at a random position
 
 ## Task 
