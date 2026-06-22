@@ -198,6 +198,8 @@ Click the dropdown that says *No Function* and select **SceneLoader → LoadScen
 
 A text field will appear — type in the exact name of your target scene.
 
+![](images/button3.jpeg)
+
 ### 6. Test it
 
 Press **Play** and click the button — Unity will load the target scene.
