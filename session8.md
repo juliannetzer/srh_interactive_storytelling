@@ -111,3 +111,98 @@ The **orange dot** in each preset icon shows the position of the anchor point re
 - `stretch` — the element stretches to fill the parent's width or height
 
 > **Tip:** For most fixed UI elements like a score display or a button, pick the corner or edge closest to where the element actually sits on screen. A top-left HUD element should be anchored top-left — that way it stays in place on any resolution.
+
+# Text 
+
+## Custom Fonts with TextMeshPro
+
+Unity's default text system is **TextMeshPro (TMP)** — it produces sharper, more flexible text than the old Unity UI Text component. To use a custom font, you first need to convert it into a **TMP Font Asset**.
+
+Please download [Basteleur designed by Keussel](https://velvetyne.fr/fonts/basteleur/) as an example. 
+
+### 1. Import the Font
+
+Drop your `.ttf` or `.otf` font file into your project's `Assets` folder.
+
+> **Tip:**usually .ttf works better with Unity
+
+### 2. Create a Font Asset
+
+Right-click the font file in the Project panel and choose **Create → TextMeshPro → Font Asset → SDF**. Unity generates a new `.asset` file next to your font.
+
+![](images/font1.jpeg)
+
+### 3. Create and assing the Font Asset
+
+Now select your Canvas Element and click on **GameObject → UI (Canvas) → Text- TextMeshPro**.
+
+![](images/font2.jpeg)
+
+Now you should see your created Text, now you can assing your Font Assets in the Inspector, and also change settings like size, color, etc.: 
+![](images/font3.jpeg)
+
+> **Tip:** Store all your Font Assets in a dedicated `Fonts` folder inside `Assets` to keep your project tidy.
+
+# Buttons
+
+A **Button** is one of the most essential interactive UI elements in Unity. It detects user clicks and triggers a response — opening a menu, starting the game, or any other action you connect to it.
+
+## Adding a Button
+
+In the Hierarchy, right-click your **Canvas** and choose **UI (Canvas) → Button - TextMeshPro**. Unity creates a Button object with a TMP text child automatically.
+
+## Structure
+
+A Button in Unity consists of two parts:
+
+- **Button object** — carries the Image component (the visual background) and the Button component (the interaction logic)
+- **Text (TMP) child** — the label displayed on the button
+
+You can style both independently — resize the background, change the font, adjust colors.
+
+![](images/button1.jpeg)
+
+## Loading a New Scene with a Button
+
+### 1. Download the Script
+
+[Download](https://juliannetzer.de/downloads/SceneLoader.cs) the `SceneLoader.cs` script and place it into your project's `Assets/Scripts` folder.
+
+
+### 2. Create a GameManager Object
+
+In the Hierarchy, right-click an empty area and choose **Create Empty**. Rename the new object to `GameManager`.
+
+
+### 3. Attach the Script
+
+Drag `SceneLoader.cs` from the Project panel onto the **GameManager** object in the Hierarchy — or click **Add Component** in the Inspector and search for `SceneLoader`.
+
+
+### 4. Add the Target Scene to the Build Profile
+
+Before the scene transition can work at runtime, Unity needs to know about all scenes in your project.
+
+Go to **File → Build Profile**. Drag your target scene from the Project panel into the **Scene List**. Make sure it appears in the list with a checkmark.
+
+![](images/button2.jpeg)
+
+
+### 5. Connect the Button
+
+Select your Button in the Hierarchy. In the Inspector, scroll down to the **On Click ()** section and click the **+** icon to add a new entry.
+
+Drag the **GameManager** object from the Hierarchy into the empty object slot.
+
+Click the dropdown that says *No Function* and select **SceneLoader → LoadScene (string)**.
+
+A text field will appear — type in the exact name of your target scene.
+
+### 6. Test it
+
+Press **Play** and click the button — Unity will load the target scene.
+
+> **Tip:** The scene name in the On Click () field must match the filename of the scene exactly, without the `.unity` extension — for example `MainMenu`, not `MainMenu.unity`.
+
+
+
