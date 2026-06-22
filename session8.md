@@ -166,7 +166,7 @@ You can style both independently — resize the background, change the font, adj
 
 ### 1. Download the Script
 
-[Download](https://juliannetzer.de/downloads/SceneLoader.cs) the `SceneLoader.cs` script and place it into your project's `Assets/Scripts` folder.
+[Download](https://juliannetzer.de/downloads/SceneLoader.cs.zip) the `SceneLoader.cs` script and place it into your project's `Assets/Scripts` folder.
 
 
 ### 2. Create a GameManager Object
