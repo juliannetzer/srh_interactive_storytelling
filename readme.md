@@ -31,3 +31,7 @@ Coding in Unity & first Interactions
 ## Session 7
 Pose Tracking
 - [Session 7](session7.md)
+
+## Session 8
+UI
+- [Session 8](session8.md)
